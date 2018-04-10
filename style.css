@@ -5,6 +5,10 @@
     color: rgba(245, 168, 0, 1)!important;
 }
 
+.bg-secondary {
+    background-color: rgba(153, 155, 158, 1)!important;
+}
+
 /* nav */
 nav{
     text-transform: uppercase;
