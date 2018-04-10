@@ -106,3 +106,10 @@ nav{
         max-width: 100%;
     }
 }
+
+
+/* Contact us section */
+
+.contact {
+    background-image: url('/images/geometric-background.png');
+}
