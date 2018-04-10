@@ -67,3 +67,27 @@ nav{
         font-size: 3.5rem;
     }
 }
+
+
+/* Fix spacing of all .container-fluids */
+
+.container-fluid {
+    padding-bottom: 2rem;
+}
+
+.container-fluid + .container-fluid {
+   padding-top: 2rem
+}
+
+/* Fix spacing of cards on mobile */
+
+.card {
+    margin: auto;
+    margin-top: 50px;
+}
+
+@media (min-width: 576px){
+    .card {
+        margin-top: 0px;
+    }
+}
